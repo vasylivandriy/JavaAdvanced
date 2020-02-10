@@ -2,6 +2,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.internal.configuration.injection.scanner.MockScanner;
 
 import java.io.IOException;
 
