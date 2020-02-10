@@ -21,7 +21,7 @@ public class Main {
     int hospitalSalary(int hoursHospital, int hourHospitalSalary) throws IOException {
 
         if (hoursHospital > 15) {
-            throw new IOException("You inputted wrong hospital hours");
+            throw new IOException("You inputted wrong (too much) hospital hours. Must be less then 15");
         } else {
             return hoursHospital * hourHospitalSalary;
         }
