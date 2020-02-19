@@ -47,7 +47,7 @@ public class SalaryCalculatorTest {
         Assert.assertTrue(actual > 1000);
     }
 
-    @Ignore("I don't have a time")
+    @Test
     public void isWorkSalaryTest20Thous() {
 
         boolean actual = salaryCalculator.isWorkSalary(salaryCalculator.salary(salaryCalculator0.getSalaryPerHour(), salaryCalculator0.getHoursWork(), salaryCalculator0.getHoursHospital(), salaryCalculator0.getHourHospitalSalary()));
